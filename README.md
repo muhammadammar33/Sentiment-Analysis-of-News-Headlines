@@ -14,6 +14,8 @@ NLP mini assignment (submission: 26 October 2026).
 | Visualisations | [`outputs/figures/`](outputs/figures/) (PNG) |
 | Research report (~1,370 words) | [`report/report.docx`](report/report.docx), [`report/report.md`](report/report.md) |
 | Presentation (10 slides) | [`presentation/presentation.pptx`](presentation/presentation.pptx) |
+| Step-by-step guide (how everything was built) | [`docs/step_by_step_guide.docx`](docs/step_by_step_guide.docx), [`docs/step_by_step_guide.md`](docs/step_by_step_guide.md) |
+| Build scripts | [`scripts/`](scripts/) |
 
 ## Key findings
 
@@ -30,4 +32,4 @@ pip install -r requirements.txt
 jupyter notebook sentiment_analysis_news_headlines.ipynb
 ```
 
-Run all cells from the repository root. The notebook regenerates every table and figure in `outputs/`.
+Run all cells from the repository root. The notebook regenerates every table and figure in `outputs/`. To rebuild every file (notebook, report, slides), follow Step 18 of the step-by-step guide.
